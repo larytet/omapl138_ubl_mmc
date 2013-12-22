@@ -1,7 +1,8 @@
 omapl138_ubl_mmc
 ================
 
-Set of tools to program MMC and  boot from MMC for  OMAPL138
+Set of tools to program MMC and  boot from MMC for  OMAPL138. 
+In all comments below Ubuntu 12.04 Host OS is assumed.
 
 
 How to compile
@@ -85,3 +86,10 @@ Program u-boot to the MMC BLOCK 50
 <pre><code>
 ./omapl138_boot_loader.py  --mmc 'u-boot.bin.ais 50 0xC1080000'
 </code></pre>
+
+
+TIPs
+================
+
+The script omapl138_boot_loader.py allows to generate and parse AIS (Application Image Script) files.  AIS is a Texas Instruments, Inc. proprietary boot script format widely used in TI devices. 
+
