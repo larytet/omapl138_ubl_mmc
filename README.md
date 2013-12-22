@@ -34,7 +34,7 @@ Install ti_cgt_c6000_7.3.3_setup_linux_x86.bin, bios_setuplinux_6_33_02_31.bin, 
 Copy folders linux-devkit and syslink to the ~/ti
 
 Compile
-</code></pre>
+<pre><code>
 make -C audio/ubl/mk/ all
 </code></pre>
 
