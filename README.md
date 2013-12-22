@@ -17,6 +17,7 @@ Open the archive
 tar xjvf ti-sdk-omapl138-lcdk-01.00.00.bz2
 
 Install ti_cgt_c6000_7.3.3_setup_linux_x86.bin, bios_setuplinux_6_33_02_31.bin, ipc_setuplinux_1_24_02_27.bin, xdctools_setuplinux_3_23_01_43.bin from dsp-tools - use folder 'ti' your home directory. Folder ~ti shall look like this
+<pre><code>
   $ ls ~/ti -w 1
   bios_6_33_02_31
   ipc_1_24_02_27
@@ -24,7 +25,7 @@ Install ti_cgt_c6000_7.3.3_setup_linux_x86.bin, bios_setuplinux_6_33_02_31.bin, 
   syslink_2_10_03_20
   TI_CGT_C6000_7.3.3
   xdctools_3_23_01_43
-  
+</code></pre>
 Copy folders linux-devkit and syslink to the ~/ti
 
 Compile
